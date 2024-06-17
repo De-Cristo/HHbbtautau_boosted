@@ -1,5 +1,9 @@
-<use   name="CommonTools/Utils"/>
-<export>
-  <lib   name="1"/>
-</export>
-
+<use name="root"/>
+<use name="ROOTVecOps" />
+<use name="PhysicsTools/TensorFlow"/>
+<use name="tensorflow" />
+<use name="tensorflow-cc" />
+<use name="cms_hh_proc_interface/processing"/>
+<use name="cms_hh_tf_inference/inference"/>
+<use name="MulticlassInference/MulticlassInference"/>
+<export><lib name="1"/></export>
