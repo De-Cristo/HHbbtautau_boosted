@@ -33,3 +33,7 @@
 
 # jupyterlab
 .ipynb_checkpoints
+
+#python compile
+__pycache__
+*.pyc
