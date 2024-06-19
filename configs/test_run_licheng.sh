@@ -8,7 +8,7 @@ law index --verbose #If we have added some tasks in our user code.
 voms-proxy-init --rfc --voms cms -valid 192:00 #To identify yourself with a valid proxy in case you don't have it.
 
 
-law run PreprocessRDF --version prod_test --category-name base --config-name run3_2022_preEE_licheng --dataset-name VBFHHto2B2Tau_CV-1_C2V-1_C3-1 --modules-file HtautauMassRDF --workers 4 --branch -1 --max-runtime 4h --workflow local --keep-and-drop-file run3_keep_and_drop_file_test_licheng --transfer-logs true
+law run PreprocessRDF --version prod_test --category-name base --config-name run3_2022_preEE --dataset-name VBFHHto2B2Tau_CV-1_C2V-1_C3-1 --modules-file run3_modulesrdf_boosted --workers 4 --branch -1 --max-runtime 4h --workflow local --keep-and-drop-file run3_keep_and_drop_file_test_licheng --transfer-logs true
 
 law run PreprocessRDF --version prod_test --category-name base --config-name run3_2022_preEE_licheng --dataset-name VBFHHto2B2Tau_CV-1_C2V-1_C3-1 --modules-file HtautauMass --workers 4 --branch 0 --max-runtime 4h --workflow local --keep-and-drop-file run3_keep_and_drop_file_test_licheng --transfer-logs true
 
